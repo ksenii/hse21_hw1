@@ -87,7 +87,7 @@ pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task
 
 
 # КОД №1
-
+```
 count = 0  
 length = 0  
 array = []  
@@ -111,7 +111,7 @@ for num in array:
         N50 = num  
 
 **print("N50: ", N50)**  
-
+```
 ### Результат out_contig.fa
 
 ![](результат1.png)
@@ -121,7 +121,44 @@ for num in array:
 ![](результат2.png)
 
 # КОД №2
+```
+array = []  
+for line in open("out_scaffold.fa"):  
+    if(line[0] == '>'):  
+        data = int(line.split('_')[1][3:])  
+        array.append(data)  
 
+maxim = -100  
+position = 0  
+for num in array:  
+    if maxim < num:  
+        maxim = num  
+        position_max = position  
+    position+=1  
+**print("Номер самого длинного: ", position_max)**  
 
+c = -1  
+text = ""  
+for line in open("out_scaffold.fa"):  
+    if (line[0] == '>'):  
+        c+=1  
+    elif (c == position_max):  
+        text += line.strip()  
+
+lenN = 0  
+countgap = 0  
+bool = False  
+for letter in text:  
+    if(letter == 'N'):  
+        lenN +=1  
+        if (bool == False):  
+            countgap += 1  
+        bool = True  
+    else:  
+        bool = False  
+
+**print("Количетво гэпов: ", countgap)  
+print("Общая длина: ", lenN)**  
+```
 
 
