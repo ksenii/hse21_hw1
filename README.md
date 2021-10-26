@@ -88,3 +88,8 @@ pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task
 
 # ОТЧЁТ№2
 
+![](4.png)
+
+![](5.png)
+
+![](6.png)
