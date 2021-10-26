@@ -1,4 +1,4 @@
-# hse21_hw1
+# HSE21_HW1
 
 
 **Step №1**  
@@ -76,4 +76,15 @@ pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task
 **$** pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task1/out_contig.fa .  
 **$** pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task1/out_scaffold.fa .  
 **$** pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task1/out_gapClosed.fa .  
+
+
+# ОТЧЁТ№1
+
+![](1.png)
+
+![](2.png)
+
+![](3.png)
+
+# ОТЧЁТ№2
 
