@@ -87,7 +87,7 @@ pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task
 
 
 # КОД №1
-```
+```python
 count = 0  
 length = 0  
 array = []  
@@ -121,7 +121,7 @@ for num in array:
 ![](результат2.png)
 
 # КОД №2
-```
+```python
 array = []  
 for line in open("out_scaffold.fa"):  
     if(line[0] == '>'):  
