@@ -88,7 +88,6 @@ pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task
 
 # КОД №1
 
-file = "out_contig.fa"  
 count = 0  
 length = 0  
 array = []  
@@ -113,7 +112,16 @@ for num in array:
 
 **print("N50: ", N50)**  
 
+### Результат out_contig.fa
+
+![](результат1.png)
+
+### Результат out_scaffold.fa.fa
+
+![](результат2.png)
 
 # КОД №2
+
+
 
 
