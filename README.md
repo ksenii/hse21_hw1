@@ -98,9 +98,9 @@ for line in open("out_scaffold.fa"):
         length += data  
         array.append(data)  
 
- **print("Общее количество: ", count)  
+print("Общее количество: ", count)  
 print("Общая длина: ",  length)  
-print("Длина самого динного: ", max(array))**   
+print("Длина самого динного: ", max(array))   
 
 summa = 0  
 N50 =0  
@@ -110,7 +110,7 @@ for num in array:
     if (summa <= length/2):  
         N50 = num  
 
-**print("N50: ", N50)**  
+print("N50: ", N50)  
 ```
 ### Результат out_contig.fa
 
