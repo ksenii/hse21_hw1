@@ -22,7 +22,7 @@ for num in array:
         position_max = position
     position+=1
 
-print("Номер самого длинного: ", position_max)
+print("Номер самого длинного: ", position_max + 1)
 
 c = -1
 text = ""
