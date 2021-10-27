@@ -168,8 +168,15 @@ for letter in text:
 
 print("Количетво гэпов: ", countgap)
 print("Общая длина: ", lenN)
-
-
 ```
+### Результат out_scaffold.fa
+
+![](результат3.png)
+
+### Результат out_gapClosed.fa
+
+![](результат4.png)
+
+
 
 
