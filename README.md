@@ -71,19 +71,19 @@ pscp -i "./privatekey.ppk" -P 5222 kasesikova@92.242.58.92:/home/kasesikova/Task
 
 # ОТЧЁТ №1
 
-![](1.png)
+![](images/1.png)
 
-![](2.png)
+![](images/2.png)
 
-![](3.png)
+![](images/3.png)
 
 # ОТЧЁТ №2
 
-![](4.png)
+![](images/4.png)
 
-![](5.png)
+![](images/5.png)
 
-![](6.png)
+![](images/6.png)
 
 
 # КОД №1
@@ -114,11 +114,11 @@ for num in array:
 ```
 ### Результат out_contig.fa
 
-![](результат1.png)
+![](images/результат1.png)
 
 ### Результат out_scaffold.fa.fa
 
-![](результат2.png)
+![](images/результат2.png)
 
 # КОД №2
 
@@ -171,11 +171,11 @@ print("Общая длина: ", lenN)
 ```
 ### Результат out_scaffold.fa
 
-![](результат3.png)
+![](images/результат3.png)
 
 ### Результат out_gapClosed.fa
 
-![](результат4.png)
+![](images/результат4.png)
 
 
 
